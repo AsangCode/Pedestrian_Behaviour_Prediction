@@ -151,7 +151,7 @@ def get_graph_path(model_name):
     else:
         base_data_dir = os.path.join(base_data_dir, 'tf_pose_data')
 
-    graph_path = os.path.join('/content/drive/My Drive/datax_volvo_additional_files/', dyn_graph_path[model_name])
+    graph_path = os.path.join('/content/Pedestrian_Behaviour_Prediction/tf-pose-estimation/', dyn_graph_path[model_name])
     if os.path.isfile(graph_path):
         return graph_path
 
